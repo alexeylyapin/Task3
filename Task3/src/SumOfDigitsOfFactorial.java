@@ -8,7 +8,7 @@ public class SumOfDigitsOfFactorial {
 
     public int getSumOfDigits(int number) {
 
-        /*Need to use BigInteger class, becouse  factorial may be is
+        /*Need to use BigInteger class, because  factorial may be is
         *large to handled by long, int or any other primitive data type in java.
         */
         BigInteger sum = BigInteger.ZERO;
